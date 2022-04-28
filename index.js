@@ -26,8 +26,8 @@ const proxy = new Corrosion({
     forceHttps: true,
     requestMiddleware: [
         Corrosion.middleware.blacklist([
-            "accounts.google.com",
-        ], "Page is blocked"),
+            "fortnite.com",
+        ], "Quit Fortnite dumbass"),
     ]
 });
 
@@ -41,7 +41,7 @@ const Palladium = new PalladiumProxy({
   Corrosion: [true, proxy],
   title: "Tsunami",
   /*"requestMiddleware": [
-    PalladiumProxy.blackList(["accounts.google.com"], "Page is Blocked")
+    PalladiumProxy.blackList(["fortnite.com"], "Quit fortnite dumbass")
   ],*/
 })
 
